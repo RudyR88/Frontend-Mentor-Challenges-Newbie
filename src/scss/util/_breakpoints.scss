@@ -1,0 +1,11 @@
+@use './functions' as f;
+
+$breakpoints-up: (
+    'tablet': f.toEm(600),
+);
+
+@mixin breakpoint($size) {
+    @media (min-width: map-get($breakpoints-up, $size)){
+        @content;
+    }
+}

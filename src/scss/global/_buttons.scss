@@ -1,0 +1,18 @@
+@use '../util' as u;
+
+.btn {
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    width: 100%;
+    padding: u.toRem(16);
+    color: var(--comp-bg-clr);
+    background-color: var(--accent-clr);
+    border: none;
+    border-radius: 10px;
+    transition: background-color .3s ease-in-out;
+
+    &:hover {
+        background-color: var(--btn-hover-clr);
+    }
+}

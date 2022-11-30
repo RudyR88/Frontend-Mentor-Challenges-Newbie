@@ -1,0 +1,66 @@
+@use '../util' as u;
+
+.card {
+    border-radius: 10px;
+    background-color: var(--comp-bg-clr);
+
+    @include u.breakpoint('tablet'){
+        display: flex;
+        height: auto;
+        width: u.toRem(600);
+    }
+
+    .product-img {
+        height: u.toRem(250);
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+
+        @include u.breakpoint('tablet'){
+            width: 50%;
+            height: u.toRem(413);
+            border-radius: 10px 0 0 10px;
+        }
+    }
+
+    .product-info {
+        padding: u.toRem(16) u.toEm(32) u.toEm(32) u.toEm(32);
+
+        @include u.breakpoint('tablet'){
+            padding: u.toRem(34);
+            width: 50%;
+        }
+
+        .categ {
+            display: block;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-weight: 500;
+            margin-bottom: u.toRem(10);
+        }
+
+        h2 {
+            text-transform: capitalize;
+            margin-bottom: u.toRem(20);
+        }
+
+        h3 {
+            margin-bottom: 0;
+            color: var(--accent-clr);
+            margin-right: u.toRem(20);
+        }
+
+        p {
+            margin-bottom: u.toRem(25);
+        }
+
+        .cart {
+            margin-bottom: -4px;
+            margin-right: u.toRem(10);
+        }
+
+        h2, .price {
+            margin-bottom: u.toRem(20);
+        }
+    }
+}

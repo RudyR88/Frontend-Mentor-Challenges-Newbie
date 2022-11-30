@@ -1,0 +1,25 @@
+@use '../util' as u;
+
+h1, h2, h3, h4, p, a, span {
+    margin-top: 0;
+}
+
+h2 {
+    color: var(--title-clr);
+    font-size: u.toRem(32);
+    line-height: u.toRem(29);
+}
+
+h2, h3 {
+    font-family: var(--secondary-ft);
+    font-weight: 700;
+    font-size: u.toRem(27);
+}
+
+.categ-txt, .was-price-txt {
+    font-size: u.toRem(12);
+}
+
+.btn-txt {
+    font-size: inherit;
+}
