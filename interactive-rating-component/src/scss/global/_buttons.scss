@@ -1,0 +1,50 @@
+@use '../util' as u;
+
+.btn {
+    background-color: var(--accent-clr);
+    color: var(--title-clr);
+    border: none;
+    border-radius: 20px;
+    padding: u.toRem(13);
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 700;
+
+    &:hover, &:focus {
+        background-color: var(--title-clr);
+        color: var(--accent-clr);
+    }
+}
+
+.circle-btn {
+    font-family: inherit;
+    background-color: var(--circle-clr);
+    color: var(--raiting-clr);
+    border: none;
+    border-radius: 50%;
+    padding: u.toRem(12) u.toRem(16);
+    font-weight: 700;
+
+    @include u.breakpoint('medium'){
+        &:hover, &:focus {
+            background-color: var(--txt-clr);
+            color: var(--title-clr);
+        }
+    }
+}
+
+.active {
+    background-color: var(--accent-clr);
+    color: var(--title-clr);
+}
+
+.btn, .circle-btn {
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+
+    &:focus {
+        outline: none;
+    }
+}

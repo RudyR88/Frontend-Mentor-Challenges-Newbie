@@ -1,0 +1,10 @@
+@use '../util' as u;
+
+h1, h2, h3, h4, span, p, a {
+    margin-top: 0;
+}
+
+h2 {
+    font-size: u.toRem(25);
+    font-weight: 700;
+}

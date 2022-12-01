@@ -1,0 +1,6 @@
+@use '../util' as u;
+
+.container {
+    width: min(90%, u.toRem(375));
+    margin: 0 auto;
+}
