@@ -57,4 +57,7 @@
 }
 .card .product-info h2, .card .product-info .price {
   margin-bottom: 1.25rem;
-}/*# sourceMappingURL=card.css.map */
+}
+.card .product-info .was-price-txt {
+  text-decoration: line-through;
+}/*# sourceMappingURL=Card.css.map */
