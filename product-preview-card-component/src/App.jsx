@@ -22,7 +22,7 @@ function App() {
         <p>{desc}</p>
         <div className="flex price">
           <h3>${price}</h3>
-          <span className="was-price-txt"><strike>${was}</strike></span>
+          <span className="was-price-txt">${was}</span>
         </div>
         <button className="btn btn-txt"><img className="cart" src="../assets/images/icon-cart.svg" alt="white cart icon"/>Add to Cart</button>
       </div>

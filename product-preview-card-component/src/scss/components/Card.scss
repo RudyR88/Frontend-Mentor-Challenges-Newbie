@@ -62,5 +62,9 @@
         h2, .price {
             margin-bottom: u.toRem(20);
         }
+
+        .was-price-txt {
+            text-decoration: line-through;
+        }
     }
 }
