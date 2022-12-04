@@ -1,0 +1,21 @@
+.qr {
+  background-color: var(--component-bg-clr);
+  padding: 1rem 1rem 2.8125rem 1rem;
+  text-align: center;
+  box-shadow: 1px 1px 15px hsla(0deg, 0%, 71%, 0.678);
+  border-radius: 15px;
+}
+.qr-img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1.5625rem;
+}
+.qr h2 {
+  color: var(--title-clr);
+}
+.qr p {
+  width: 85%;
+  margin: 0 auto;
+}/*# sourceMappingURL=QR.css.map */

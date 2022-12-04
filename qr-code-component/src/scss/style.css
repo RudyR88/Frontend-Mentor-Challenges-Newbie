@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: var(--primary-font);
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: var(--txt-clr);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-clr);
+}
+
+h2, p {
+  margin-top: 0;
+}
+
+:root {
+  --primary-font: "Outfit", sans-serif;
+  --component-bg-clr: hsl(0, 0%, 100%);
+  --title-clr: hsl(218, 44%, 22%);
+  --txt-clr: hsl(220, 15%, 55%);
+  --bg-clr: hsl(212, 45%, 89%);
+}
+
+.container {
+  width: min(90%, 23.4375rem);
+  margin: 0 auto;
+}
+
+.inner-container {
+  width: 86%;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
