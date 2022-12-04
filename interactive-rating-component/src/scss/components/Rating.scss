@@ -2,7 +2,7 @@
 
 .rating {
     background-color: var(--comp-bg-clr);
-    padding: u.toRem(35);
+    padding: u.toRem(35) u.toRem(25);
     border-radius: 20px;
 
     .circle-star {
@@ -21,35 +21,47 @@
         margin-bottom: u.toRem(16);
     }
 
-    p {
-        margin-bottom: u.toRem(20);
-    }
-
     .ratings {
-        margin-bottom: u.toRem(20);
+        margin: 0 0 u.toRem(25) 0;
+        padding: 0;
+        border: none;
+
+        p {
+            margin-bottom: u.toRem(20);
+        }
+
+        label {
+            text-align: center;
+            line-height: u.toRem(20);
+        }
+
+        .radios {
+            display: none;
+        }
     }
 
     .centered {
         text-align: center;
-    }
 
-    .thank-you-img {
-        display: block;
-        margin: 0 auto u.toRem(25) auto;
-    }
+        .thanks-img {
+            display: block;
+            margin: 0 auto u.toRem(25) auto;
+        }
+    
+        .thanks-text {
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+            padding: u.toRem(8) u.toRem(14) u.toRem(4);
+            color: var(--accent-clr);
+            background-color: var(--circle-clr);
+            border-radius: 20px;
+            margin-bottom: u.toRem(20);
+        }
+    
+        .thanks-p {
+            margin-bottom: 0;
+        }
 
-    .thanks-text {
-        display: block;
-        width: fit-content;
-        margin: 0 auto;
-        padding: u.toRem(8) u.toRem(14) u.toRem(4);
-        color: var(--accent-clr);
-        background-color: var(--circle-clr);
-        border-radius: 20px;
-        margin-bottom: u.toRem(20);
-    }
-
-    .thanks-p {
-        margin-bottom: 0;
     }
 }

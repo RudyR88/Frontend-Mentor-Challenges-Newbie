@@ -47,7 +47,7 @@ body {
   color: var(--raiting-clr);
   border: none;
   border-radius: 50%;
-  padding: 0.75rem 1rem;
+  padding: 0.875rem 0 0.6875rem;
   font-weight: 700;
 }
 @media (min-width: 43.75em) {
@@ -57,17 +57,21 @@ body {
   }
 }
 
-.active {
-  background-color: var(--accent-clr);
-  color: var(--title-clr);
-}
-
 .btn, .circle-btn {
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
 }
 .btn:focus, .circle-btn:focus {
   outline: none;
+}
+
+.active {
+  background-color: var(--accent-clr);
+  color: var(--title-clr);
+}
+
+.disabled {
+  cursor: not-allowed;
 }
 
 h1, h2, h3, h4, span, p, a {
@@ -99,4 +103,11 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.grid5x2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
 }/*# sourceMappingURL=style.css.map */

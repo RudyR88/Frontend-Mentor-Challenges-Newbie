@@ -1,8 +1,12 @@
 import React from 'react'
 
-function RoundBtn({number}) {
+function RoundBtn({number, selectRating}) {
+
     return (
-        <button id={`rating-${number}`} className='circle-btn' data-id={number}>{number}</button> 
+        <label className='circle-btn' id={`radio-${number}`} tabIndex='0' onKeyDown={(e) => {e.code =='Space' || e.code == 'Enter' ?  selectRating(number) : ''}}>
+            <input type='radio' name='rating' value={number} onChange={()=>{selectRating(number)}}  className='radios'/> 
+            {number}
+        </label>
     )
 }
 

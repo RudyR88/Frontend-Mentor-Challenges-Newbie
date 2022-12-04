@@ -1,6 +1,6 @@
 .rating {
   background-color: var(--comp-bg-clr);
-  padding: 2.1875rem;
+  padding: 2.1875rem 1.5625rem;
   border-radius: 20px;
 }
 .rating .circle-star {
@@ -16,20 +16,29 @@
 .rating .circle-star, .rating h2 {
   margin-bottom: 1rem;
 }
-.rating p {
+.rating .ratings {
+  margin: 0 0 1.5625rem 0;
+  padding: 0;
+  border: none;
+}
+.rating .ratings p {
   margin-bottom: 1.25rem;
 }
-.rating .ratings {
-  margin-bottom: 1.25rem;
+.rating .ratings label {
+  text-align: center;
+  line-height: 1.25rem;
+}
+.rating .ratings .radios {
+  display: none;
 }
 .rating .centered {
   text-align: center;
 }
-.rating .thank-you-img {
+.rating .centered .thanks-img {
   display: block;
   margin: 0 auto 1.5625rem auto;
 }
-.rating .thanks-text {
+.rating .centered .thanks-text {
   display: block;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -41,6 +50,6 @@
   border-radius: 20px;
   margin-bottom: 1.25rem;
 }
-.rating .thanks-p {
+.rating .centered .thanks-p {
   margin-bottom: 0;
-}/*# sourceMappingURL=rating.css.map */
+}/*# sourceMappingURL=Rating.css.map */
