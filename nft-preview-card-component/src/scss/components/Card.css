@@ -21,11 +21,14 @@
   display: block;
   margin-bottom: 1.5rem;
 }
-.card a.img:hover .image-overlay {
+.card a.img:hover .image-overlay, .card a.img:focus .image-overlay {
   display: flex;
 }
-.card a:hover {
+.card a:hover, .card a:focus {
   color: var(--accent-clr);
+}
+.card a:focus {
+  outline: none;
 }
 .card .product-img {
   display: block;

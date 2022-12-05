@@ -25,13 +25,17 @@
             display: block;
             margin-bottom: u.toRem(24);
 
-            &:hover {
+            &:hover, &:focus {
                 .image-overlay { display: flex; }
             }
         }
 
-        &:hover {
+        &:hover, &:focus {
             color: var(--accent-clr);
+        }
+
+        &:focus {
+            outline: none;
         }
     }
 
