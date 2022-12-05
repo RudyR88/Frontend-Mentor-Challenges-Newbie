@@ -1,0 +1,19 @@
+@use '../util' as u;
+
+h1, h2, h3, h4, span, p, a {
+    margin-top: 0;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: inherit;
+}
+
+.unit-txt {
+    color: var(--accent-clr);
+    font-weight: 700;
+}
