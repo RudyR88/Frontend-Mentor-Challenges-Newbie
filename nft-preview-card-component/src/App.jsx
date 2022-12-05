@@ -17,8 +17,8 @@ function App() {
   } =  data
 
   return (
-    <div className='card container'>
-      <a href="#product-img" className='img'>
+    <main className='card container'>
+      <a href="#productImg" className='img'>
         <img className='product-img' src={cardImg} alt={cardImgAlt}/>
         <div className='image-overlay flex-center'>
           <img className='icon icon-view' src='../assets/images/icon-view.svg' alt='' aria-hidden='true'/>
@@ -41,7 +41,7 @@ function App() {
         <img className='avatar' src={creatorImg} alt='' aria-hidden='true'/>
         <h3>Creation of <a href='#creator'>{creator}</a></h3>
       </div>
-    </div>
+    </main>
   )
 }
 
