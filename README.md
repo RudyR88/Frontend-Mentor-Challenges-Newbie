@@ -33,4 +33,17 @@
   </a>
 </p>
 
+## QR code component
+*A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.* 
 
+**Try Challenge:** [Challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+
+**Code:** [Project folder](https://github.com/RudyR88/Frontend-Mentor-Challenges-Newbie/tree/main/qr-code-component)
+
+**Website:** [QR code component](https://qrcodecomponent-13a6ed.netlify.app)
+
+<p align="center">
+  <a href="https://qrcodecomponent-13a6ed.netlify.app" target="_blank">
+    <img width="45%" src="https://user-images.githubusercontent.com/116358345/205475378-b0a61598-b8d6-4a2f-8e7d-aa5fc11de708.png">
+  </a>
+</p>
