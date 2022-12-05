@@ -4,7 +4,7 @@
 **React JS and SASS chosen as additional tools for projects.**
 
 ## Product preview card component
-*HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.* 
+*"HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects."* 
 
 **Try Challenge:** [Challenge](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
 
@@ -19,7 +19,7 @@
 </p>
 
 ## Interactive rating component
-*This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!* 
+*"This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!"* 
 
 **Try Challenge:** [Challenge](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
 
@@ -34,7 +34,7 @@
 </p>
 
 ## QR code component
-*A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.* 
+*"A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet."* 
 
 **Try Challenge:** [Challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
 
@@ -45,5 +45,20 @@
 <p align="center">
   <a href="https://qrcodecomponent-13a6ed.netlify.app" target="_blank">
     <img width="45%" src="https://user-images.githubusercontent.com/116358345/205475378-b0a61598-b8d6-4a2f-8e7d-aa5fc11de708.png">
+  </a>
+</p>
+
+## NFT preview card component
+*"This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with."* 
+
+**Try Challenge:** [Challenge](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
+
+**Code:** [Project folder](https://github.com/RudyR88/Frontend-Mentor-Challenges-Newbie/tree/main/nft-preview-card-component)
+
+**Website:** [NFT preview card component](https://nftpreviewcardcomponent-93fa56.netlify.app)
+
+<p align="center">
+  <a href="https://nftpreviewcardcomponent-93fa56.netlify.app/" target="_blank">
+    <img width="45%" src="https://user-images.githubusercontent.com/116358345/205556224-449cef45-35ef-4db1-aff3-ac88ad4f8263.png">
   </a>
 </p>
