@@ -1,16 +1,10 @@
 # Frontend-Mentor-Challenges-Newbie
 *Solutions to Frontend Mentor newbie challenges https://www.frontendmentor.io/challenges*
 
-**React JS and SASS chosen as additional tools for projects.**
+**React JS and Sass chosen as additional tools for projects.**
 
 ## Product preview card component
-*"HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects."* 
-
-**Try Challenge:** [Challenge](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
-
-**Code:** [Project folder](https://github.com/RudyR88/Frontend-Mentor-Challenges-Newbie/tree/main/product-preview-card-component)
-
-**Website:** [Product preview card component](https://productpreviewcardcomponent-f9638e.netlify.app)
+*"HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects." - Frontend-mentor* 
 
 <p align="center">
   <a href="https://productpreviewcardcomponent-f9638e.netlify.app" target="_blank">
@@ -18,14 +12,36 @@
   </a>
 </p>
 
+**Links:**
+
+- Code: [Project folder](https://github.com/RudyR88/Frontend-Mentor-Challenges-Newbie/tree/main/product-preview-card-component)
+- Live Site: [Click here or image](https://productpreviewcardcomponent-f9638e.netlify.app)
+- Frontend-mentor challenge: [Product preview card component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+
+
+**Requirements:**
+
+- [x] View the optimal layout for the app depending on their device's screen size
+- [x] See hover states for all interactive elements on the page
+
+**Personal Requirement:**
+
+- [x] React and Sass used
+
+**Built with:**
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+
+**Author:**
+
+Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
+
 ## Interactive rating component
-*"This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!"* 
-
-**Try Challenge:** [Challenge](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
-
-**Code:** [Project folder](https://github.com/RudyR88/Frontend-Mentor-Challenges-Newbie/tree/main/interactive-rating-component)
-
-**Website:** [Interactive rating component](https://interactiveratingcomponent-313dbe.netlify.app)
+*"This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!" - Frontend-mentor* 
 
 <p align="center">
   <a href="https://interactiveratingcomponent-313dbe.netlify.app" target="_blank">
@@ -33,14 +49,36 @@
   </a>
 </p>
 
+**Links:**
+
+- Code: [Project folder](https://github.com/RudyR88/Frontend-Mentor-Challenges-Newbie/tree/main/interactive-rating-component)
+- Live Site: [Click here or image](https://interactiveratingcomponent-313dbe.netlify.app)
+- Frontend-mentor challenge: [Interactive rating component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
+
+**Requirements:**
+
+- [x] View the optimal layout for the app depending on their device's screen size
+- [x] See hover states for all interactive elements on the page
+- [x] Select and submit a number rating
+- [x] See the "Thank you" card state after submitting a rating
+
+**Personal Requirement:**
+
+- [x] React and Sass used
+
+**Built with:**
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+
+**Author:**
+
+Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
+
 ## QR code component
-*"A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet."* 
-
-**Try Challenge:** [Challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
-
-**Code:** [Project folder](https://github.com/RudyR88/Frontend-Mentor-Challenges-Newbie/tree/main/qr-code-component)
-
-**Website:** [QR code component](https://qrcodecomponent-13a6ed.netlify.app)
+*"A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet." - Frontend-mentor* 
 
 <p align="center">
   <a href="https://qrcodecomponent-13a6ed.netlify.app" target="_blank">
@@ -48,17 +86,62 @@
   </a>
 </p>
 
+**Links:**
+
+- Code: [Project folder](https://github.com/RudyR88/Frontend-Mentor-Challenges-Newbie/tree/main/qr-code-component)
+- Live Site: [Click here or image](https://qrcodecomponent-13a6ed.netlify.app)
+- Frontend-mentor challenge: [QR code component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+
+**Requirements:**
+
+- [x] View the optimal layout for the app depending on their device's screen size
+
+**Personal Requirement:**
+
+- [x] React and Sass used
+
+**Built with:**
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+
+**Author:**
+
+Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
+
 ## NFT preview card component
-*"This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with."* 
-
-**Try Challenge:** [Challenge](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
-
-**Code:** [Project folder](https://github.com/RudyR88/Frontend-Mentor-Challenges-Newbie/tree/main/nft-preview-card-component)
-
-**Website:** [NFT preview card component](https://nftpreviewcardcomponent-93fa56.netlify.app)
+*"This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with." - Frontend-mentor* 
 
 <p align="center">
   <a href="https://nftpreviewcardcomponent-93fa56.netlify.app/" target="_blank">
     <img width="45%" src="https://user-images.githubusercontent.com/116358345/205556224-449cef45-35ef-4db1-aff3-ac88ad4f8263.png">
   </a>
 </p>
+
+**Links:**
+
+- Code: [Project folder](https://github.com/RudyR88/Frontend-Mentor-Challenges-Newbie/tree/main/nft-preview-card-component)
+- Live Site: [Click here or image](https://nftpreviewcardcomponent-93fa56.netlify.app)
+- Frontend-mentor challenge: [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
+
+**Requirements:**
+
+- [x] View the optimal layout for the app depending on their device's screen size
+- [x] See hover states for interactive elements
+
+**Personal Requirement:**
+
+- [x] React and Sass used
+
+**Built with:**
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+
+**Author:**
+
+Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
