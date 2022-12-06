@@ -1,0 +1,28 @@
+@use '../util' as u;
+
+.stat {
+    margin-top: u.toRem(30);
+
+    h3 {
+        color: var(--title-clr);
+        font-size: u.toRem(23);
+        margin-bottom: u.toRem(3);
+
+        @include u.breakpoint('large') {
+            font-size: u.toRem(20);
+            margin-bottom: u.toRem(6);
+        }
+    }
+
+    span {
+        display: block;
+        text-transform: uppercase;
+        font-size: u.toRem(13);
+        letter-spacing: 1.5px;
+        color: var(--stat-clr);
+
+        @include u.breakpoint('large') {
+            font-size: u.toRem(11);
+        }
+    }
+}

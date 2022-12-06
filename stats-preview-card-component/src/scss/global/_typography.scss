@@ -1,0 +1,22 @@
+@use '../util' as u;
+
+h1, h2, h3, h4, span, p, a {
+    margin-top: 0;
+}
+
+h2 {
+    font-family: var(--secondary-ft);
+    font-size: u.toRem(30);
+
+    @include u.breakpoint('large'){
+        font-size: u.toRem(34);
+    }
+}
+
+h2, h3 {
+    font-family: var(--secondary-ft);
+}
+
+.accent {
+    color: var(--accent-clr);
+}

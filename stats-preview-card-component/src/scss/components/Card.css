@@ -1,0 +1,85 @@
+.card {
+  text-align: center;
+  background-color: var(--card-bg-clr);
+  padding: 0 0 2.5rem 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 71.875em) {
+  .card {
+    text-align: left;
+    flex-direction: row;
+    padding: 0;
+  }
+}
+.card .gradient {
+  display: inline-block;
+  background: linear-gradient(var(--gradient-clr), var(--gradient-clr));
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 2.1875rem;
+  order: 1;
+}
+@media (min-width: 71.875em) {
+  .card .gradient {
+    width: 50%;
+    border-radius: 0 10px 10px 0;
+    margin-bottom: 0;
+    order: 2;
+  }
+}
+.card .gradient .dec-img {
+  width: 100%;
+  opacity: 0.5;
+  display: block;
+  z-index: -1;
+  border-radius: 10px 10px 0 0;
+}
+@media (min-width: 71.875em) {
+  .card .gradient .dec-img {
+    border-radius: 0 10px 10px 0;
+    height: 100%;
+  }
+}
+.card .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 2;
+}
+@media (min-width: 71.875em) {
+  .card .content {
+    align-items: flex-start;
+    width: 50%;
+    order: 1;
+    padding: 3.75rem 0 3.75rem 4.375rem;
+  }
+}
+.card .content h2 {
+  width: 80%;
+  color: var(--title-clr);
+}
+.card .content p {
+  width: 75%;
+  line-height: 25px;
+}
+@media (min-width: 71.875em) {
+  .card .content p {
+    width: 80%;
+    margin-bottom: 2.5rem;
+  }
+}
+.card .content .stat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 71.875em) {
+  .card .content .stat-container {
+    width: 70%;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=Card.css.map */
