@@ -145,3 +145,38 @@ Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
 **Author:**
 
 Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
+
+## Order summary component
+*"A perfect project for newbies who are starting to build confidence with layouts!" - Frontend-mentor* 
+
+<p align="center">
+  <a href="https://ordersummarycomponent-c0e13d.netlify.app/" target="_blank">
+    <img width="45%" src="https://user-images.githubusercontent.com/116358345/205804069-17f686ce-3652-42b9-934f-3c850652fa71.png">
+  </a>
+</p>
+
+**Links:**
+
+- Code: [Project folder](https://github.com/RudyR88/Frontend-Mentor-Challenges-Newbie/tree/main/order-summary-component)
+- Live Site: [Click here or image](https://ordersummarycomponent-c0e13d.netlify.app/)
+- Frontend-mentor challenge: [Order summary component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
+
+**Requirements:**
+
+- [x] View the optimal layout for the app depending on their device's screen size
+- [x] See hover states for interactive elements
+
+**Personal Requirement:**
+
+- [x] React and Sass used
+
+**Built with:**
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+
+**Author:**
+
+Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
