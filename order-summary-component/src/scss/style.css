@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--txt-clr);
+  background: var(--mobile-bg) top/contain no-repeat;
+  background-color: var(--bg-clr);
+}
+@media (min-width: 43.75em) {
+  body {
+    background: var(--desktop-bg) top/contain no-repeat;
+    background-color: var(--bg-clr);
+  }
+}
+
+.btn {
+  cursor: pointer;
+  background-color: var(--accent-clr);
+  border: none;
+  border-radius: 10px;
+  color: var(--card-bg-clr);
+  width: 85%;
+  padding: 1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+.btn:hover, .btn:focus {
+  background-color: var(--hover-clr);
+}
+.btn:focus {
+  outline: none;
+}
+.btn__payment {
+  margin-bottom: 2rem;
+  box-shadow: 0px 15px 20px var(--shadow-clr);
+}
+
+h1, h2, h3, h4, span, p, a {
+  margin-top: 0;
+}
+
+h2, h3 {
+  text-transform: capitalize;
+}
+
+h2, h3, .btn-txt, a {
+  font-weight: 900;
+}
+
+.price, .btn-txt {
+  font-size: 0.875rem;
+}
+
+.price {
+  font-weight: 700;
+}
+
+a {
+  font-size: 0.75rem;
+}
+
+:root {
+  --primary-font: "Red Hat Display", sans-serif;
+  --bg-clr: hsl(225, 100%, 94%);
+  --plan-bg-clr: hsl(227, 82%, 96%);
+  --accent-clr: hsl(245, 75%, 52%);
+  --card-bg-clr: hsl(225, 100%, 98%);
+  --txt-clr: hsl(224, 23%, 55%);
+  --title-clr: hsl(223, 47%, 23%);
+  --hover-clr: hsla(245, 75%, 52%, 0.644);
+  --shadow-clr: hsla(245, 75%, 52%, 0.233);
+  --mobile-bg: url("../assets/images/pattern-background-mobile.svg");
+  --desktop-bg: url("../assets/images/pattern-background-desktop.svg");
+}
+
+.container {
+  width: min(90%, 23.4375em);
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

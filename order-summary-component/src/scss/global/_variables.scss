@@ -1,0 +1,14 @@
+:root {
+    --primary-font: 'Red Hat Display', sans-serif;
+    --bg-clr: hsl(225, 100%, 94%);
+    --plan-bg-clr: hsl(227, 82%, 96%);
+    --accent-clr: hsl(245, 75%, 52%);
+    --card-bg-clr: hsl(225, 100%, 98%);
+    --txt-clr: hsl(224, 23%, 55%);
+    --title-clr: hsl(223, 47%, 23%);
+    --hover-clr: hsla(245, 75%, 52%, 0.644);
+    --shadow-clr: hsla(245, 75%, 52%, 0.233);
+
+    --mobile-bg: url('../assets/images/pattern-background-mobile.svg');
+    --desktop-bg: url('../assets/images/pattern-background-desktop.svg');
+}

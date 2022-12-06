@@ -1,0 +1,32 @@
+@use '../util' as u;
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--primary-font);
+    font-size: u.toRem(16);
+    font-weight: 500;
+    color: var(--txt-clr);
+    background: var(--mobile-bg) top/contain no-repeat;
+    background-color: var(--bg-clr);
+
+    @include u.breakpoint('medium'){
+        background: var(--desktop-bg) top/contain no-repeat;
+        background-color: var(--bg-clr);
+    }
+}

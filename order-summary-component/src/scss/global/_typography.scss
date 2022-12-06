@@ -1,0 +1,25 @@
+@use '../util' as u;
+
+h1, h2, h3, h4, span, p, a {
+    margin-top: 0;
+}
+
+h2, h3 {
+    text-transform: capitalize;
+}
+
+h2, h3, .btn-txt, a {
+    font-weight: 900;
+}
+
+.price, .btn-txt {
+    font-size: u.toRem(14);
+}
+
+.price {
+    font-weight: 700;
+}
+
+a {
+    font-size: u.toRem(12);
+}

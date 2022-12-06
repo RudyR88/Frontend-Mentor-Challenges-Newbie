@@ -1,0 +1,68 @@
+@use '../util' as u;
+
+.card {
+    background-color: var(--card-bg-clr);
+    padding: 0 0 u.toRem(38);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px var(--shadow-clr);
+
+    img {
+        &.decor {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 20px 20px 0 0;
+            margin-bottom: u.toRem(32);
+        }
+    }
+
+    h2, h3 {
+        color: var(--title-clr);
+    }
+
+    h3 {
+        margin-bottom: u.toRem(2);
+        font-size: inherit;
+    }
+
+    p {
+        width: 80%;
+        margin-bottom: u.toRem(20);
+    }
+
+    .plan {
+        width: 85%;
+        background-color: var(--plan-bg-clr);
+        border-radius: 10px;
+        padding: u.toRem(24);
+        margin-bottom: u.toRem(24);
+    }
+
+    a {
+        text-transform: capitalize;
+        color: var(--accent-clr);
+        transition: color .3s ease-in-out;
+
+        &:hover, &:focus {
+            color: var(--hover-clr);
+            text-decoration: none;
+        }
+
+        &.cancel {
+            text-decoration: none;
+            color: inherit;
+
+            &:hover, &:focus {
+                color: var(--title-clr);
+            }
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .icon {
+        margin-right: u.toRem(20);
+    }
+}
