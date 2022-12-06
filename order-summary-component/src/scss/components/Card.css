@@ -1,6 +1,6 @@
 .card {
   background-color: var(--card-bg-clr);
-  padding: 0 0 2.375rem;
+  padding: 0 0 2.375rem 0;
   text-align: center;
   border-radius: 20px;
   box-shadow: 0px 5px 15px var(--shadow-clr);
