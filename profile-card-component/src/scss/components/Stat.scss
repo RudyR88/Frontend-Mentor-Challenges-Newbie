@@ -1,0 +1,13 @@
+@use '../util' as u;
+
+.stat {
+    h3 {
+        margin-bottom: 0;
+    }
+
+    span {
+        text-transform: capitalize;
+        letter-spacing: 1.5px;
+        font-size: u.toRem(11);
+    }
+}

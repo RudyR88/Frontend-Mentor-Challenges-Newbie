@@ -1,0 +1,19 @@
+@use '../util' as u;
+
+h1, h2, h3, h4, span, p, a {
+    margin-top: 0;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+h2, h3 {
+    font-size: u.toRem(20);
+    font-weight: 700;
+    color: var(--title-clr);
+}
+
+.location {
+    font-size: u.toRem(15);
+}

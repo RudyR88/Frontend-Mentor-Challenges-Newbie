@@ -1,0 +1,70 @@
+@use '../util' as u;
+
+.card {
+    position: relative;
+    background-color: var(--card-bg-clr);
+    border-radius: 15px;
+    text-align: center;
+    padding: 0 0 u.toRem(24);
+    box-shadow: 1px 5px 10px var(--shadow-clr);
+
+    &__dec {
+        border-radius: 15px 15px 0 0;
+    }
+
+    &__avatar {
+        position: absolute;
+        top: 85px;
+        border: solid 4px var(--card-bg-clr);
+        border-radius: 50%;
+    }
+
+    &__info {
+        margin-top: u.toRem(65);
+        text-transform: capitalize;
+
+        &__name {
+            margin-bottom: u.toRem(5);
+            h2 {
+                margin-bottom: 0;
+                margin-right: u.toRem(10);
+            }
+        }
+    }
+
+    hr {
+        margin: u.toRem(20) 0 u.toRem(25);
+        width: 100%;
+        border: none;
+        height: 1px;
+        background-color: var(--hr-clr);
+    }
+
+    &__stats {
+        width: 80%;
+    }
+}
+
+.dec-img {
+    position: absolute;
+    z-index: -100;
+
+    &--top {
+        top: -700px;
+        left: -675px;
+
+        @include u.breakpoint(large){
+            top: -490px;
+            left: -330px;
+        }
+    }
+
+    &--bottom {
+        bottom: -500px;
+        right: -775px;
+
+        @include u.breakpoint(large){
+            right: -400px;
+        }
+    }
+}
