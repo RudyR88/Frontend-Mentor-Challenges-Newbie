@@ -11,6 +11,7 @@
 - [NFT preview card component](#nft-preview-card-component)
 - [Order summary component](#order-summary-component)
 - [Stats preview card component](#stats-preview-card-component)
+- [3-column preview card component](#3-column-preview-card-component)
 
 ## Product preview card component
 *"HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects." - Frontend-mentor* 
