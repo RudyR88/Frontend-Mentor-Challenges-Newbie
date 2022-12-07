@@ -13,7 +13,6 @@
   color: var(--title-clr);
 }
 .learn p {
-  width: 100%;
   margin-bottom: 1.5625rem;
 }
 @media (min-width: 59.625em) {

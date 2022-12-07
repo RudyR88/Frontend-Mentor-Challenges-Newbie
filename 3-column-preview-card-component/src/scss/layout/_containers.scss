@@ -6,6 +6,6 @@
     margin: 0 auto;
 
     @include u.breakpoint('large'){
-        max-width: u.toEm(1440);
+        max-width: u.toEm(1028);
     }
 }
