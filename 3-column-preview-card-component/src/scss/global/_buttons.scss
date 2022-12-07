@@ -1,0 +1,32 @@
+@use '../util' as u;
+
+.btn {
+    cursor: pointer;
+    background: var(--title-clr);
+    font-family: inherit;
+    padding: u.toRem(12) u.toRem(32);
+    border: 2px solid var(--title-clr);
+    border-radius: 30px;
+    transition: background-color .3s ease-in-out;
+    
+    &:hover, &:focus {
+        background-color: transparent;
+        color: var(--title-clr);
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &-orange {
+        color: var(--section-one-clr);
+    }
+
+    &-blue {
+        color: var(--section-two-clr);
+    }
+
+    &-green {
+        color: var(--section-three-clr);
+    }
+}

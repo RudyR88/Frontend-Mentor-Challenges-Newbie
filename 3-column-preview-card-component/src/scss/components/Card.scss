@@ -1,0 +1,10 @@
+@use '../util' as u;
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    @include u.breakpoint('large'){
+        flex-direction: row;
+    }
+}

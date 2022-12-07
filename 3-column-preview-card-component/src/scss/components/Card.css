@@ -1,0 +1,9 @@
+.card {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 59.625em) {
+  .card {
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=Card.css.map */
