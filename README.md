@@ -12,6 +12,7 @@
 - [Order summary component](#order-summary-component)
 - [Stats preview card component](#stats-preview-card-component)
 - [3-column preview card component](#3-column-preview-card-component)
+- [Profile card component](#profile-card-component)
 
 ## Product preview card component
 *"HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects." - Frontend-mentor* 
@@ -266,3 +267,39 @@ Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
 **Author:**
 
 Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
+
+## Profile card component
+*"This is a perfect challenge to test your layout skills. The card layout doesn't shift, so it's also great for those that haven't dived into responsive websites yet!" - Frontend-mentor* 
+
+<p align="center">
+  <a href="https://profilecardcomponent-1d459a.netlify.app/" target="_blank">
+    <img width="45%" src="https://user-images.githubusercontent.com/116358345/206173047-fdb731aa-754a-41c2-ab92-d6725f90556c.png">
+  </a>
+</p>
+
+**Links:**
+
+- Code: [Project folder](https://github.com/RudyR88/Frontend-Mentor-Challenges-Newbie/tree/main/profile-card-component)
+- Live Site: [Click here or image](https://profilecardcomponent-1d459a.netlify.app/)
+- Frontend-mentor challenge: [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
+
+**Requirements:**
+
+- [x] Build out the project to the designs provided
+
+**Personal Requirement:**
+
+- [x] React and Sass used
+
+**Built with:**
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Sass](https://sass-lang.com/) - CSS pre-compiler
+
+**Author:**
+
+Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
+
