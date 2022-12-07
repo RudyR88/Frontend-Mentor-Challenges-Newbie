@@ -3,6 +3,11 @@
 
 **React JS and Sass chosen as additional tools for projects.**
 
+## Table of Contents
+
+- [Product preview card component](#product-preview-card-component)
+- [Interactive rating component](#interactive-rating-component)
+
 ## Product preview card component
 *"HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects." - Frontend-mentor* 
 
@@ -35,6 +40,7 @@
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
+- [Sass](https://sass-lang.com/) - CSS pre-compiler
 
 **Author:**
 
@@ -72,6 +78,7 @@ Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
+- [Sass](https://sass-lang.com/) - CSS pre-compiler
 
 **Author:**
 
@@ -106,6 +113,7 @@ Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
+- [Sass](https://sass-lang.com/) - CSS pre-compiler
 
 **Author:**
 
@@ -141,6 +149,7 @@ Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
+- [Sass](https://sass-lang.com/) - CSS pre-compiler
 
 **Author:**
 
@@ -176,6 +185,42 @@ Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
+- [Sass](https://sass-lang.com/) - CSS pre-compiler
+
+**Author:**
+
+Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
+
+## Stats preview card component
+*"This is a great small challenge to help get you used to building to a design. There's no JS in this project, so you'll be able to focus on your HTML & CSS skills." - Frontend-mentor* 
+
+<p align="center">
+  <a href="https://statspreviewcardcomponent-9c4511.netlify.app/" target="_blank">
+    <img width="45%" src="https://user-images.githubusercontent.com/116358345/206087008-a678e9d4-0c7c-441e-955d-74fb024070c8.png">
+  </a>
+</p>
+
+**Links:**
+
+- Code: [Project folder](https://github.com/RudyR88/Frontend-Mentor-Challenges-Newbie/tree/main/stats-preview-card-component)
+- Live Site: [Click here or image](https://statspreviewcardcomponent-9c4511.netlify.app/)
+- Frontend-mentor challenge: [Stats preview card component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
+
+**Requirements:**
+
+- [x] View the optimal layout for the app depending on their device's screen size
+
+**Personal Requirement:**
+
+- [x] React and Sass used
+
+**Built with:**
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Sass](https://sass-lang.com/) - CSS pre-compiler
 
 **Author:**
 
