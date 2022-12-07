@@ -7,6 +7,10 @@
 
 - [Product preview card component](#product-preview-card-component)
 - [Interactive rating component](#interactive-rating-component)
+- [QR code component](#qr-code-component)
+- [NFT preview card component](#nft-preview-card-component)
+- [Order summary component](#order-summary-component)
+- [Stats preview card component](#stats-preview-card-component)
 
 ## Product preview card component
 *"HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects." - Frontend-mentor* 
