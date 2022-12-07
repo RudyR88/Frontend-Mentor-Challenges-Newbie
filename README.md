@@ -229,3 +229,39 @@ Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
 **Author:**
 
 Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
+
+## 3-column preview card component
+*"This challenge is perfect if you're just getting started. The shift between the layouts will be a nice test if you're new to building responsive projects." - Frontend-mentor* 
+
+<p align="center">
+  <a href="https://3columnpreviewcardcomponent-1c7675.netlify.app/" target="_blank">
+    <img width="45%" src="https://user-images.githubusercontent.com/116358345/206108908-8739a9bf-97a3-4540-bc08-5547b5762245.png">
+  </a>
+</p>
+
+**Links:**
+
+- Code: [Project folder](https://github.com/RudyR88/Frontend-Mentor-Challenges-Newbie/tree/main/3-column-preview-card-component)
+- Live Site: [Click here or image](https://3columnpreviewcardcomponent-1c7675.netlify.app/)
+- Frontend-mentor challenge: [3-column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
+
+**Requirements:**
+
+- [x] View the optimal layout for the app depending on their device's screen size
+- [x] See hover states for interactive elements
+
+**Personal Requirement:**
+
+- [x] React and Sass used
+
+**Built with:**
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Sass](https://sass-lang.com/) - CSS pre-compiler
+
+**Author:**
+
+Frontend Mentor - [@RudyR88](https://www.frontendmentor.io/profile/RudyR88)
